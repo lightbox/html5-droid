@@ -1,0 +1,226 @@
+#content {
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+}
+
+#android {
+    -webkit-transform-origin: 0 0;
+    -moz-transform-origin: 0 0;
+    margin: auto;
+    width:180px;
+    height:230px;
+}
+
+#android #badness {
+    position: absolute;
+    margin-left: 86px;
+    margin-top: 123px;
+}
+
+#android .robot {
+    position: absolute;
+}
+
+#android .robot div {
+    background: #A4C639;
+    border: 3px solid #fff;
+}
+
+#android #badness.bad_1 .robot .robot_body { background: -webkit-linear-gradient(top, #A4C639, #A4C639 90%, #AA0000 95%, #AA0000); background: -moz-linear-gradient(top, #A4C639, #A4C639 90%, #AA0000 95%, #AA0000); background: -o-linear-gradient(top, #A4C639, #A4C639 90%, #AA0000 95%, #AA0000); background: -webkit-gradient(linear, left top, left bottom, from(#A4C639), color-stop(0.9,#A4C639), color-stop(0.95,#AA0000), to(#AA0000));}
+#android #badness.bad_2 .robot .robot_body { background: -webkit-linear-gradient(top, #A4C639, #A4C639 80%, #AA0000 89%, #AA0000); background: -moz-linear-gradient(top, #A4C639, #A4C639 80%, #AA0000 89%, #AA0000); background: -o-linear-gradient(top, #A4C639, #A4C639 80%, #AA0000 89%, #AA0000); background: -webkit-gradient(linear, left top, left bottom, from(#A4C639), color-stop(0.8,#A4C639), color-stop(0.89,#AA0000), to(#AA0000));}
+#android #badness.bad_3 .robot .robot_body { background: -webkit-linear-gradient(top, #A4C639, #A4C639 70%, #AA0000 83%, #AA0000); background: -moz-linear-gradient(top, #A4C639, #A4C639 70%, #AA0000 83%, #AA0000); background: -o-linear-gradient(top, #A4C639, #A4C639 70%, #AA0000 83%, #AA0000); background: -webkit-gradient(linear, left top, left bottom, from(#A4C639), color-stop(0.7,#A4C639), color-stop(0.83,#AA0000), to(#AA0000));}
+#android #badness.bad_4 .robot .robot_body { background: -webkit-linear-gradient(top, #A4C639, #A4C639 60%, #AA0000 77%, #AA0000); background: -moz-linear-gradient(top, #A4C639, #A4C639 60%, #AA0000 77%, #AA0000); background: -o-linear-gradient(top, #A4C639, #A4C639 60%, #AA0000 77%, #AA0000); background: -webkit-gradient(linear, left top, left bottom, from(#A4C639), color-stop(0.6,#A4C639), color-stop(0.77,#AA0000), to(#AA0000));}
+#android #badness.bad_5 .robot .robot_body { background: -webkit-linear-gradient(top, #A4C639, #A4C639 50%, #AA0000 71%, #AA0000); background: -moz-linear-gradient(top, #A4C639, #A4C639 50%, #AA0000 71%, #AA0000); background: -o-linear-gradient(top, #A4C639, #A4C639 50%, #AA0000 71%, #AA0000); background: -webkit-gradient(linear, left top, left bottom, from(#A4C639), color-stop(0.5,#A4C639), color-stop(0.71,#AA0000), to(#AA0000));}
+#android #badness.bad_6 .robot .robot_body { background: -webkit-linear-gradient(top, #A4C639, #A4C639 40%, #AA0000 63%, #AA0000); background: -moz-linear-gradient(top, #A4C639, #A4C639 40%, #AA0000 63%, #AA0000); background: -o-linear-gradient(top, #A4C639, #A4C639 40%, #AA0000 63%, #AA0000); background: -webkit-gradient(linear, left top, left bottom, from(#A4C639), color-stop(0.4,#A4C639), color-stop(0.63,#AA0000), to(#AA0000));}
+#android #badness.bad_7 .robot .robot_body { background: -webkit-linear-gradient(top, #A4C639, #A4C639 30%, #AA0000 55%, #AA0000); background: -moz-linear-gradient(top, #A4C639, #A4C639 30%, #AA0000 55%, #AA0000); background: -o-linear-gradient(top, #A4C639, #A4C639 30%, #AA0000 55%, #AA0000); background: -webkit-gradient(linear, left top, left bottom, from(#A4C639), color-stop(0.3,#A4C639), color-stop(0.55,#AA0000), to(#AA0000));}
+#android #badness.bad_8 .robot .robot_body { background: -webkit-linear-gradient(top, #A4C639, #A4C639 20%, #AA0000 45%, #AA0000); background: -moz-linear-gradient(top, #A4C639, #A4C639 20%, #AA0000 45%, #AA0000); background: -o-linear-gradient(top, #A4C639, #A4C639 20%, #AA0000 45%, #AA0000); background: -webkit-gradient(linear, left top, left bottom, from(#A4C639), color-stop(0.2,#A4C639), color-stop(0.45,#AA0000), to(#AA0000));}
+#android #badness.bad_9 .robot .robot_body { background: -webkit-linear-gradient(top, #A4C639, #A4C639 10%, #AA0000 32%, #AA0000); background: -moz-linear-gradient(top, #A4C639, #A4C639 10%, #AA0000 32%, #AA0000); background: -o-linear-gradient(top, #A4C639, #A4C639 10%, #AA0000 32%, #AA0000); background: -webkit-gradient(linear, left top, left bottom, from(#A4C639), color-stop(0.1,#A4C639), color-stop(0.32,#AA0000), to(#AA0000));}
+#android #badness.bad_10 .robot .robot_body{ background: -webkit-linear-gradient(top, #A4C639, #A4C639  0%, #AA0000  0%, #AA0000); background: -moz-linear-gradient(top, #A4C639, #A4C639  0%, #AA0000  0%, #AA0000); background: -o-linear-gradient(top, #A4C639, #A4C639  0%, #AA0000  0%, #AA0000); background: -webkit-gradient(linear, left top, left bottom, from(#A4C639), color-stop(0.0,#A4C639), color-stop(0.00,#AA0000), to(#AA0000));}
+
+#android .robot_body {
+    position: relative;
+    z-index: 20;
+    width: 104px;
+    height: 92px;
+    margin-left: -51px;
+    margin-top: -46px;
+    -webkit-border-bottom-left-radius: 12px;
+    -moz-border-radius-bottomleft: 12px;
+    border-bottom-left-radius: 12px;
+
+    -webkit-border-bottom-right-radius: 12px;
+    -moz-border-radius-bottomright: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+#android .robot_limb {
+    z-index: 10;
+    position: absolute;
+    width: 23px;
+    height: 69px;
+    -webkit-border-radius: 23px;
+    -moz-border-radius: 23px;
+    border-radius: 23px;
+    margin-left: -53px;
+    margin-top: -46px;
+}
+
+#android .robot_limb.arm.left {
+    /* his left arm */
+    margin-left: 62px;
+}
+
+#android .robot_limb.arm.right {
+    margin-left: -83px;
+}
+
+#android .robot_limb.leg.left {
+    /* his left leg */
+    margin-top: 24px;
+    margin-left: 9px;
+}
+
+#android .robot_limb.leg.right {
+    margin-top: 24px;
+    margin-left: -30px;
+}
+
+#android .robot .robot_head {
+    z-index: 40;
+    position: absolute;
+    width:110px;
+    height: 63px;
+    background: transparent url(droidhead.png);
+    background-size: 880px 64px;
+    border: none;
+    margin-left:-51px;
+    margin-top: -112px;
+}
+
+#android.turn_0 .robot_head { background-position: 0 0; }
+#android.turn_1 .robot_head { background-position: -770px 0; }
+#android.turn_2 .robot_head { background-position: -660px 0; }
+#android.turn_3 .robot_head { background-position: -550px 0; }
+#android.turn_4 .robot_head { background-position: -440px 0; }
+#android.turn_5 .robot_head { background-position: -330px 0; }
+#android.turn_6 .robot_head { background-position: -220px 0; }
+#android.turn_7 .robot_head { background-position: -110px 0; }
+
+#android.turn_0 .robot_limb.arm.left { z-index: 30; }
+#android.turn_1 .robot_limb.arm.left { z-index: 30; }
+#android.turn_2 .robot_limb.arm.left { z-index: 30; }
+#android.turn_3 .robot_limb.arm.left { z-index: 30; }
+
+#android.turn_4 .robot_limb.arm.right { z-index: 30; }
+#android.turn_5 .robot_limb.arm.right { z-index: 30; }
+#android.turn_6 .robot_limb.arm.right { z-index: 30; }
+#android.turn_7 .robot_limb.arm.right { z-index: 30; }
+
+#android.turn_0 .robot_limb.leg.left { z-index: 15; }
+#android.turn_1 .robot_limb.leg.left { z-index: 15; }
+#android.turn_2 .robot_limb.leg.left { z-index: 15; }
+#android.turn_3 .robot_limb.leg.left { z-index: 15; }
+
+#android.turn_4 .robot_limb.leg.right { z-index: 15; }
+#android.turn_5 .robot_limb.leg.right { z-index: 15; }
+#android.turn_6 .robot_limb.leg.right { z-index: 15; }
+#android.turn_7 .robot_limb.leg.right { z-index: 15; }
+
+
+#buttons {
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    display: none;
+}
+
+#buttons a {
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    display: inline-block;
+    width: 50px;
+    height:40px;
+    margin: 0 3px;
+    background: #cccccc;
+    line-height: 40px;
+    text-align: center;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    border: 1px solid #666666;
+    border-top-color: #bbbbbb;
+    border-left-color: #999999;
+    color: #333333;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: helvetica, arial;
+}
+
+#buttons a.active {
+    background-color: #eeeeee;
+    border-color: #666666;
+    border-bottom-color: #bbbbbb;
+    border-right-color: #999999;
+}
+
+#box_score {
+    margin: auto;
+    text-align:center;
+    line-height: 20px;
+    font-size: 14px;
+    padding: 3px;
+    width: 120px;
+    color: #666666;
+    background: rgba(200,200,200,.3);
+    border-radius: 20px;
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,.2);
+    -moz-box-shadow: 0 1px 3px rgba(0,0,0,.2);
+    box-shadow: 0 1px 3px rgba(0,0,0,.2);
+}
+
+#title_score {
+    margin-left: 3px;
+    display:inline-block;
+}
+
+#val_score {
+    display:inline-block;
+    width: 65px;
+    float: right;
+    margin-left: 5px;
+    padding: 0 5px;
+    background: rgba(255,255,255,.3);
+    border-radius: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-align:right;
+    -webkit-box-shadow:inset 0 1px 3px rgba(0,0,0,.3);
+    -moz-box-shadow:inset 0 1px 3px rgba(0,0,0,.3);
+    box-shadow:inset 0 1px 3px rgba(0,0,0,.3);
+}
+
+#task {
+    margin:auto;
+    text-align:center;
+    line-height: 20px;
+    font-size: 14px;
+    padding: 3px;
+    width: 300px;
+    color: #666666;
+    background: rgba(200,200,200,.3);
+    border-radius: 20px;
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,.2);
+    -moz-box-shadow: 0 1px 3px rgba(0,0,0,.2);
+    box-shadow: 0 1px 3px rgba(0,0,0,.2);
+    margin-bottom: 5px;
+}
+
+#task .content {
+    white-space: nowrap;
+}
+
+#startagain {
+    text-align: center;
+    display:none;
+    margin-top: 10px;
+}
